@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>fill_contact_information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d668b588-1485-4f35-9edb-067771fa8d3a</testCaseGuid>
+   <variable>
+      <defaultValue>'Nombre Prueba'</defaultValue>
+      <description></description>
+      <id>bde12bce-e3a8-4703-9eb7-99bb1e8d186d</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apellido Prueba'</defaultValue>
+      <description></description>
+      <id>c2e00e95-2322-495d-8b80-4591cbd192fb</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+</TestCaseEntity>

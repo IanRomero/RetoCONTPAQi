@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/SET_UP_BROWSER/launch_browser","testCaseId":"Test Cases/SET_UP_BROWSER/launch_browser"}
+{"testCaseName":"Test Cases/SIGN_ON/log_in","testCaseId":"Test Cases/SIGN_ON/log_in"}
+{"testCaseName":"Test Cases/FLIGHTS/access_flights","testCaseId":"Test Cases/FLIGHTS/access_flights"}
+{"testCaseName":"Test Cases/FLIGHTS/FlightFinder/search_flight","testCaseId":"Test Cases/FLIGHTS/FlightFinder/search_flight","bindedValues":{"noPass":"\u00273\u0027","servClass":"\u0027B\u0027","type":"\u0027oneway\u0027","depFrom":"\u0027London\u0027"}}
+{"testCaseName":"Test Cases/FLIGHTS/SelectFlight/reserve_flight","testCaseId":"Test Cases/FLIGHTS/SelectFlight/reserve_flight"}
+{"testCaseName":"Test Cases/FLIGHTS/BookFlight/purchase_flight","testCaseId":"Test Cases/FLIGHTS/BookFlight/purchase_flight"}
+{"testCaseName":"Test Cases/SET_UP_BROWSER/close_browser","testCaseId":"Test Cases/SET_UP_BROWSER/close_browser"}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>reserve_flight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbfb2da4-bf37-48e5-babf-705d635f2ef0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65b8d064-5566-4a43-add0-6a070435a9b7</id>
+      <masked>false</masked>
+      <name>lastHourDepart</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49aa64bf-cfc0-4212-8848-9f4bdaf46a84</id>
+      <masked>false</masked>
+      <name>lastHourReturn</name>
+   </variable>
+</TestCaseEntity>

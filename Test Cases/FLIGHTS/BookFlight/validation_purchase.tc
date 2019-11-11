@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validation_purchase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aae36c4c-8deb-4de1-94fc-44d5d961eade</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>2ad5aed7-195f-45ba-b336-1a6d48d1e099</id>
+      <masked>false</masked>
+      <name>dataPurchase</name>
+   </variable>
+</TestCaseEntity>

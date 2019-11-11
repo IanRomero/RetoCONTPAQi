@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>purchase_flight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4507f93b-93ca-4ee8-8e23-fc9b3171e3d6</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>5198b03c-cf2f-4081-9904-f4347f79bf76</id>
+      <masked>false</masked>
+      <name>countPassengers</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>6e939c1c-5036-45ea-a2a2-c69f937ffb33</id>
+      <masked>false</masked>
+      <name>totalPassengers</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6ff8edc8-d26a-469f-ba1f-52c8e3bc1571</id>
+      <masked>false</masked>
+      <name>namePassenger</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68b2f61a-5d26-46b3-bfc9-06db10e5fb74</id>
+      <masked>false</masked>
+      <name>lastNamePassenger</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>d4aa5389-b6ec-4c7b-9499-3c2a935fbf0b</id>
+      <masked>false</masked>
+      <name>rowDataPassenger</name>
+   </variable>
+</TestCaseEntity>

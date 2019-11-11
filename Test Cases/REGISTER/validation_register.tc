@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>validation_register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>849b7f67-f782-4bfe-a357-60dfcb3b69cf</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>c8395937-cf45-4389-9730-2d8678f09c13</id>
+      <masked>false</masked>
+      <name>dataRegister</name>
+   </variable>
+</TestCaseEntity>

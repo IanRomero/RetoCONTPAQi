@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search_flight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e88f23ec-1f66-48fa-8cf0-ce6188323ca9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c4893a25-6eda-4bb6-a95b-7c948f59a421</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>10f473f5-a16f-4987-81d5-a752f6417fb8</id>
+      <masked>false</masked>
+      <name>depFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3815774-f7de-4866-96b0-276349da451f</id>
+      <masked>false</masked>
+      <name>servClass</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fe7eba93-b92f-432c-9992-f4345e69c1ea</id>
+      <masked>false</masked>
+      <name>noPass</name>
+   </variable>
+</TestCaseEntity>
