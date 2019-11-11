@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ReserveFlights,Chrome 78.0.3904.87,,,2019-11-11 17:28:22,2019-11-11 17:31:36,3m - 14.133s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/launch_browser,Chrome 78.0.3904.87,,,2019-11-11 17:28:23,2019-11-11 17:28:44,20.473s,PASSED
+"openBrowser(BASE_URL, STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:28:24,2019-11-11 17:28:39,15.359s,PASSED
+maximizeWindow(),Chrome 78.0.3904.87,,,2019-11-11 17:28:39,2019-11-11 17:28:44,4.429s,PASSED
+,,,,,,,
+Test Cases/REGISTER/access_register,Chrome 78.0.3904.87,,,2019-11-11 17:28:44,2019-11-11 17:28:48,3.843s,PASSED
+"verifyElementClickable(findTestObject(""MENU/TopMenu/option_register""), STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:28:44,2019-11-11 17:28:45,0.820s,PASSED
+"click(findTestObject(""MENU/TopMenu/option_register""))",Chrome 78.0.3904.87,,,2019-11-11 17:28:45,2019-11-11 17:28:47,1.660s,PASSED
+"waitForElementVisible(findTestObject(""REGISTER/UserInformation/button_submit""), 5)",Chrome 78.0.3904.87,,,2019-11-11 17:28:47,2019-11-11 17:28:48,0.982s,PASSED
+,,,,,,,
+Test Cases/REGISTER/create_register,Chrome 78.0.3904.87,,,2019-11-11 17:28:48,2019-11-11 17:29:07,19.187s,PASSED
+"callTestCase(findTestCase(""REGISTER/fill_contact_information""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:28:48,2019-11-11 17:28:54,6.405s,PASSED
+"callTestCase(findTestCase(""REGISTER/fill_mailing_information""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:28:54,2019-11-11 17:28:59,4.174s,PASSED
+"callTestCase(findTestCase(""REGISTER/fill_user_information""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:28:59,2019-11-11 17:29:01,2.867s,PASSED
+"click(findTestObject(""REGISTER/UserInformation/button_submit""))",Chrome 78.0.3904.87,,,2019-11-11 17:29:01,2019-11-11 17:29:04,2.323s,PASSED
+"callTestCase(findTestCase(""REGISTER/validation_register""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:04,2019-11-11 17:29:07,3.142s,PASSED
+,,,,,,,
+Test Cases/SIGN_ON/access_sign_on,Chrome 78.0.3904.87,,,2019-11-11 17:29:07,2019-11-11 17:29:12,4.793s,PASSED
+"if (verifyElementVisible(findTestObject(""MENU/TopMenu/option_signoff""), OPTIONAL))",Chrome 78.0.3904.87,,,2019-11-11 17:29:07,2019-11-11 17:29:09,2.202s,PASSED
+"verifyElementClickable(findTestObject(""MENU/TopMenu/option_signon""), STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:09,2019-11-11 17:29:10,0.784s,PASSED
+"click(findTestObject(""MENU/TopMenu/option_signon""))",Chrome 78.0.3904.87,,,2019-11-11 17:29:10,2019-11-11 17:29:11,0.944s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/SIGN_ON/button_submit""), 5)",Chrome 78.0.3904.87,,,2019-11-11 17:29:11,2019-11-11 17:29:12,0.632s,PASSED
+,,,,,,,
+Test Cases/SIGN_ON/log_in,Chrome 78.0.3904.87,,,2019-11-11 17:29:12,2019-11-11 17:29:17,4.853s,PASSED
+"setText(findTestObject(""SIGN_ON/input_username""), USER_NAME)",Chrome 78.0.3904.87,,,2019-11-11 17:29:12,2019-11-11 17:29:13,0.892s,PASSED
+"setText(findTestObject(""SIGN_ON/input_password""), ""Contpaqi_2019"")",Chrome 78.0.3904.87,,,2019-11-11 17:29:13,2019-11-11 17:29:13,0.768s,PASSED
+"click(findTestObject(""SIGN_ON/button_submit""))",Chrome 78.0.3904.87,,,2019-11-11 17:29:13,2019-11-11 17:29:16,2.456s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 5)",Chrome 78.0.3904.87,,,2019-11-11 17:29:16,2019-11-11 17:29:17,0.622s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/access_flights,Chrome 78.0.3904.87,,,2019-11-11 17:29:17,2019-11-11 17:29:19,2.595s,PASSED
+"verifyElementClickable(findTestObject(""MENU/SideMenu/option_flights""), STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:17,2019-11-11 17:29:17,0.568s,PASSED
+"click(findTestObject(""MENU/SideMenu/option_flights""))",Chrome 78.0.3904.87,,,2019-11-11 17:29:17,2019-11-11 17:29:18,1.199s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 5)",Chrome 78.0.3904.87,,,2019-11-11 17:29:18,2019-11-11 17:29:19,0.636s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation,Chrome 78.0.3904.87,,,2019-11-11 17:29:19,2019-11-11 17:29:56,36.915s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/FlightFinder/search_flight""), [""type"":type, ""depFrom"":depForm, ""servClass"":servClass, ""noPass"":noPass], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:20,2019-11-11 17:29:32,12.261s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/SelectFlight/reserve_flight""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:32,2019-11-11 17:29:37,4.825s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/purchase_flight""), [""totalPassengers"":Integer.parseInt(noPass)], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:37,2019-11-11 17:29:52,15.522s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/validation_purchase""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:52,2019-11-11 17:29:54,1.896s,PASSED
+"click(findTestObject(""FLIGHTS/PurchaseMessage/button_backtoflight""))",Chrome 78.0.3904.87,,,2019-11-11 17:29:54,2019-11-11 17:29:56,1.233s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 3)",Chrome 78.0.3904.87,,,2019-11-11 17:29:56,2019-11-11 17:29:56,0.646s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation,Chrome 78.0.3904.87,,,2019-11-11 17:29:56,2019-11-11 17:30:23,26.430s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/FlightFinder/search_flight""), [""type"":type, ""depFrom"":depForm, ""servClass"":servClass, ""noPass"":noPass], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:29:56,2019-11-11 17:30:07,10.710s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/SelectFlight/reserve_flight""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:07,2019-11-11 17:30:12,4.502s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/purchase_flight""), [""totalPassengers"":Integer.parseInt(noPass)], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:12,2019-11-11 17:30:20,7.873s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/validation_purchase""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:20,2019-11-11 17:30:21,1.432s,PASSED
+"click(findTestObject(""FLIGHTS/PurchaseMessage/button_backtoflight""))",Chrome 78.0.3904.87,,,2019-11-11 17:30:21,2019-11-11 17:30:22,1.115s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 3)",Chrome 78.0.3904.87,,,2019-11-11 17:30:22,2019-11-11 17:30:23,0.646s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation,Chrome 78.0.3904.87,,,2019-11-11 17:30:23,2019-11-11 17:30:47,24.655s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/FlightFinder/search_flight""), [""type"":type, ""depFrom"":depForm, ""servClass"":servClass, ""noPass"":noPass], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:23,2019-11-11 17:30:34,10.769s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/SelectFlight/reserve_flight""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:34,2019-11-11 17:30:38,4.459s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/purchase_flight""), [""totalPassengers"":Integer.parseInt(noPass)], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:38,2019-11-11 17:30:44,6.021s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/validation_purchase""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:44,2019-11-11 17:30:45,1.323s,PASSED
+"click(findTestObject(""FLIGHTS/PurchaseMessage/button_backtoflight""))",Chrome 78.0.3904.87,,,2019-11-11 17:30:45,2019-11-11 17:30:47,1.243s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 3)",Chrome 78.0.3904.87,,,2019-11-11 17:30:47,2019-11-11 17:30:47,0.708s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation,Chrome 78.0.3904.87,,,2019-11-11 17:30:48,2019-11-11 17:31:10,22.494s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/FlightFinder/search_flight""), [""type"":type, ""depFrom"":depForm, ""servClass"":servClass, ""noPass"":noPass], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:48,2019-11-11 17:30:58,10.777s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/SelectFlight/reserve_flight""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:30:58,2019-11-11 17:31:03,4.271s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/purchase_flight""), [""totalPassengers"":Integer.parseInt(noPass)], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:03,2019-11-11 17:31:07,3.998s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/validation_purchase""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:07,2019-11-11 17:31:08,1.313s,PASSED
+"click(findTestObject(""FLIGHTS/PurchaseMessage/button_backtoflight""))",Chrome 78.0.3904.87,,,2019-11-11 17:31:08,2019-11-11 17:31:09,1.223s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 3)",Chrome 78.0.3904.87,,,2019-11-11 17:31:09,2019-11-11 17:31:10,0.761s,PASSED
+,,,,,,,
+Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation,Chrome 78.0.3904.87,,,2019-11-11 17:31:10,2019-11-11 17:31:34,23.959s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/FlightFinder/search_flight""), [""type"":type, ""depFrom"":depForm, ""servClass"":servClass, ""noPass"":noPass], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:10,2019-11-11 17:31:20,10.323s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/SelectFlight/reserve_flight""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:20,2019-11-11 17:31:25,4.188s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/purchase_flight""), [""totalPassengers"":Integer.parseInt(noPass)], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:25,2019-11-11 17:31:31,6.254s,PASSED
+"callTestCase(findTestCase(""FLIGHTS/BookFlight/validation_purchase""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.87,,,2019-11-11 17:31:31,2019-11-11 17:31:32,1.351s,PASSED
+"click(findTestObject(""FLIGHTS/PurchaseMessage/button_backtoflight""))",Chrome 78.0.3904.87,,,2019-11-11 17:31:32,2019-11-11 17:31:33,1.076s,PASSED
+"waitForElementVisible(findTestObject(""FLIGHTS/FligthFinder/Preferences/button_continue""), 3)",Chrome 78.0.3904.87,,,2019-11-11 17:31:33,2019-11-11 17:31:34,0.719s,PASSED
+,,,,,,,
+Test Cases/SET_UP_BROWSER/close_browser,Chrome 78.0.3904.87,,,2019-11-11 17:31:34,2019-11-11 17:31:36,2.088s,PASSED
+closeBrowser(),Chrome 78.0.3904.87,,,2019-11-11 17:31:34,2019-11-11 17:31:36,1.967s,PASSED

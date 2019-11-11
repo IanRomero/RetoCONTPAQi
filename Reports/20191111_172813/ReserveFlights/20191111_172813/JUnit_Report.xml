@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ReserveFlights" time="196.117" tests="12" failures="0" errors="0">
+   <testsuite name="ReserveFlights" tests="12" failures="0" errors="0" time="196.117" timestamp="2019-11-11 17:28:22" hostname="QualtopGroup - DESKTOP-JOAKIH6.cyamoda.com" id="Test Suites/ReserveFlights">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\QualtopGroup\\git\\RetoCONTPAQi\\Reports\\20191111_172813\\ReserveFlights\\20191111_172813"/>
+         <property name="logFiles" value="C:\\Users\\QualtopGroup\\git\\RetoCONTPAQi\\Reports\\20191111_172813\\ReserveFlights\\20191111_172813\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="QualtopGroup - DESKTOP-JOAKIH6.cyamoda.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="172.16.6.68"/>
+         <property name="sessionId" value="9dc37c814fa0e2f879d9738cb8f74435"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SET_UP_BROWSER/launch_browser" time="20.473" classname="Test Cases/SET_UP_BROWSER/launch_browser" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:28:23 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/launch_browser: Test Cases/SET_UP_BROWSER/launch_browser
+
+2019-11-11 17:28:24 - [TEST_STEP][PASSED] - openBrowser(BASE_URL, STOP_ON_FAILURE): Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2019-11-11 17:28:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-11 17:28:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-11 17:28:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/'
+
+2019-11-11 17:28:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-11 17:28:44 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REGISTER/access_register" time="3.843" classname="Test Cases/REGISTER/access_register" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:28:44 - [TEST_CASE][PASSED] - Test Cases/REGISTER/access_register: Test Cases/REGISTER/access_register
+
+2019-11-11 17:28:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("MENU/TopMenu/option_register"), STOP_ON_FAILURE): Object 'Object Repository/MENU/TopMenu/option_register' is clickable
+
+2019-11-11 17:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/TopMenu/option_register' is clickable
+
+2019-11-11 17:28:45 - [TEST_STEP][PASSED] - click(findTestObject("MENU/TopMenu/option_register")): Object: 'Object Repository/MENU/TopMenu/option_register' is clicked on
+
+2019-11-11 17:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/TopMenu/option_register' is clicked on
+
+2019-11-11 17:28:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("REGISTER/UserInformation/button_submit"), 5): Object 'Object Repository/REGISTER/UserInformation/button_submit' is visible
+
+2019-11-11 17:28:48 - [MESSAGE][PASSED] - Object 'Object Repository/REGISTER/UserInformation/button_submit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REGISTER/create_register" time="19.187" classname="Test Cases/REGISTER/create_register" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:28:48 - [TEST_CASE][PASSED] - Test Cases/REGISTER/create_register: Test Cases/REGISTER/create_register
+
+2019-11-11 17:28:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("REGISTER/fill_contact_information"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/REGISTER/fill_contact_information' successfully
+
+2019-11-11 17:28:48 - [TEST_CASE][PASSED] - Test Cases/REGISTER/fill_contact_information: Test Cases/REGISTER/fill_contact_information
+
+2019-11-11 17:28:48 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/ContactInformation/input_firstname"), firstName): Text 'Nombre Prueba' is set on object 'Object Repository/REGISTER/ContactInformation/input_firstname'
+
+2019-11-11 17:28:50 - [MESSAGE][PASSED] - Text 'Nombre Prueba' is set on object 'Object Repository/REGISTER/ContactInformation/input_firstname'
+
+2019-11-11 17:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/ContactInformation/input_lastname"), lastName): Text 'Apellido Prueba' is set on object 'Object Repository/REGISTER/ContactInformation/input_lastname'
+
+2019-11-11 17:28:51 - [MESSAGE][PASSED] - Text 'Apellido Prueba' is set on object 'Object Repository/REGISTER/ContactInformation/input_lastname'
+
+2019-11-11 17:28:51 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/ContactInformation/input_phone"), "123456780"): Text '123456780' is set on object 'Object Repository/REGISTER/ContactInformation/input_phone'
+
+2019-11-11 17:28:52 - [MESSAGE][PASSED] - Text '123456780' is set on object 'Object Repository/REGISTER/ContactInformation/input_phone'
+
+2019-11-11 17:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/ContactInformation/input_email"), "prueba@prueba.com"): Text 'prueba@prueba.com' is set on object 'Object Repository/REGISTER/ContactInformation/input_email'
+
+2019-11-11 17:28:53 - [MESSAGE][PASSED] - Text 'prueba@prueba.com' is set on object 'Object Repository/REGISTER/ContactInformation/input_email'
+
+2019-11-11 17:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/MailingInformation/input_address1"), "Dirección Prueba"): Text 'Dirección Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_address1'
+
+2019-11-11 17:28:54 - [MESSAGE][PASSED] - Text 'Dirección Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_address1'
+
+2019-11-11 17:28:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/REGISTER/fill_contact_information' successfully
+
+2019-11-11 17:28:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("REGISTER/fill_mailing_information"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/REGISTER/fill_mailing_information' successfully
+
+2019-11-11 17:28:54 - [TEST_CASE][PASSED] - Test Cases/REGISTER/fill_mailing_information: Test Cases/REGISTER/fill_mailing_information
+
+2019-11-11 17:28:55 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/MailingInformation/input_city"), "Ciudad Prueba"): Text 'Ciudad Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_city'
+
+2019-11-11 17:28:56 - [MESSAGE][PASSED] - Text 'Ciudad Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_city'
+
+2019-11-11 17:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/MailingInformation/input_state"), "Estado Prueba"): Text 'Estado Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_state'
+
+2019-11-11 17:28:57 - [MESSAGE][PASSED] - Text 'Estado Prueba' is set on object 'Object Repository/REGISTER/MailingInformation/input_state'
+
+2019-11-11 17:28:57 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/MailingInformation/input_postalcode"), "12345"): Text '12345' is set on object 'Object Repository/REGISTER/MailingInformation/input_postalcode'
+
+2019-11-11 17:28:58 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/REGISTER/MailingInformation/input_postalcode'
+
+2019-11-11 17:28:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("REGISTER/MailingInformation/select_country"), "MEXICO", false): All options with label 'MEXICO' are selected in object 'Object Repository/REGISTER/MailingInformation/select_country' 
+
+2019-11-11 17:28:59 - [MESSAGE][PASSED] - All options with label 'MEXICO' are selected in object 'Object Repository/REGISTER/MailingInformation/select_country' 
+
+2019-11-11 17:28:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/REGISTER/fill_mailing_information' successfully
+
+2019-11-11 17:28:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("REGISTER/fill_user_information"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/REGISTER/fill_user_information' successfully
+
+2019-11-11 17:28:59 - [TEST_CASE][PASSED] - Test Cases/REGISTER/fill_user_information: Test Cases/REGISTER/fill_user_information
+
+2019-11-11 17:28:59 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/UserInformation/input_username"), "ContpaqPrueba001"): Text 'ContpaqPrueba001' is set on object 'Object Repository/REGISTER/UserInformation/input_username'
+
+2019-11-11 17:29:00 - [MESSAGE][PASSED] - Text 'ContpaqPrueba001' is set on object 'Object Repository/REGISTER/UserInformation/input_username'
+
+2019-11-11 17:29:00 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/UserInformation/input_password"), "Contpaqi_2019"): Text 'Contpaqi_2019' is set on object 'Object Repository/REGISTER/UserInformation/input_password'
+
+2019-11-11 17:29:01 - [MESSAGE][PASSED] - Text 'Contpaqi_2019' is set on object 'Object Repository/REGISTER/UserInformation/input_password'
+
+2019-11-11 17:29:01 - [TEST_STEP][PASSED] - setText(findTestObject("REGISTER/UserInformation/input_confirmpassword"), "Contpaqi_2019"): Text 'Contpaqi_2019' is set on object 'Object Repository/REGISTER/UserInformation/input_confirmpassword'
+
+2019-11-11 17:29:01 - [MESSAGE][PASSED] - Text 'Contpaqi_2019' is set on object 'Object Repository/REGISTER/UserInformation/input_confirmpassword'
+
+2019-11-11 17:29:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/REGISTER/fill_user_information' successfully
+
+2019-11-11 17:29:01 - [TEST_STEP][PASSED] - click(findTestObject("REGISTER/UserInformation/button_submit")): Object: 'Object Repository/REGISTER/UserInformation/button_submit' is clicked on
+
+2019-11-11 17:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/REGISTER/UserInformation/button_submit' is clicked on
+
+2019-11-11 17:29:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("REGISTER/validation_register"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/REGISTER/validation_register' successfully
+
+2019-11-11 17:29:04 - [TEST_CASE][PASSED] - Test Cases/REGISTER/validation_register: Test Cases/REGISTER/validation_register
+
+2019-11-11 17:29:04 - [TEST_STEP][PASSED] - dataRegister = auxiliar.validations.RegistrationMessage.validateMessage("Nombre Prueba Apellido Prueba", USER_NAME): auxiliar.validations.RegistrationMessage.validateMessage is PASSED
+
+2019-11-11 17:29:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/REGISTER/RegistrationMessage/p_from' is: 'Dear Nombre Prueba Apellido Prueba,'
+
+2019-11-11 17:29:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/REGISTER/RegistrationMessage/p_body' is: 'Thank you for registering. You may now sign-in using the user name and password you've just entered.'
+
+2019-11-11 17:29:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/REGISTER/RegistrationMessage/p_note' is: 'Note: Your user name is ContpaqPrueba001.'
+
+2019-11-11 17:29:06 - [MESSAGE][PASSED] - Actual text 'Dear Nombre Prueba Apellido Prueba,Thank you for registering. You may now sign-in using the user name and password you've just entered.Note: Your user name is ContpaqPrueba001.' and expected text 'Dear Nombre Prueba Apellido Prueba,Thank you for registering. You may now sign-in using the user name and password you've just entered.Note: Your user name is ContpaqPrueba001.' are matched 
+
+2019-11-11 17:29:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/REGISTER/RegistrationMessage/p_note' is: 'Note: Your user name is ContpaqPrueba001.'
+
+2019-11-11 17:29:07 - [MESSAGE][PASSED] - auxiliar.validations.RegistrationMessage.validateMessage is PASSED
+
+2019-11-11 17:29:07 - [TEST_STEP][PASSED] - if (verifyEqual(dataRegister.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_register.run(validation_register:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at create_register.run(create_register:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:29:07 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_register.run(validation_register:9)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at create_register.run(create_register:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:29:07 - [TEST_STEP][PASSED] - else: 
+
+ Note: Your user name is ContpaqPrueba001. -> true
+
+
+
+2019-11-11 17:29:07 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataRegister.get(0) + " -> " + dataRegister.get(1) + "
+
+"): 
+
+ Note: Your user name is ContpaqPrueba001. -> true
+
+
+
+2019-11-11 17:29:07 - [MESSAGE][PASSED] - 
+
+ Note: Your user name is ContpaqPrueba001. -> true
+
+
+
+2019-11-11 17:29:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/REGISTER/validation_register' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN_ON/access_sign_on" time="4.793" classname="Test Cases/SIGN_ON/access_sign_on" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:29:07 - [TEST_CASE][PASSED] - Test Cases/SIGN_ON/access_sign_on: Test Cases/SIGN_ON/access_sign_on
+
+2019-11-11 17:29:07 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("MENU/TopMenu/option_signoff"), OPTIONAL)): null
+
+2019-11-11 17:29:08 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/TopMenu/option_signoff' is visible
+
+2019-11-11 17:29:08 - [TEST_STEP][PASSED] - click(findTestObject("MENU/TopMenu/option_signoff")): Object: 'Object Repository/MENU/TopMenu/option_signoff' is clicked on
+
+2019-11-11 17:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/TopMenu/option_signoff' is clicked on
+
+2019-11-11 17:29:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("MENU/TopMenu/option_signon"), STOP_ON_FAILURE): Object 'Object Repository/MENU/TopMenu/option_signon' is clickable
+
+2019-11-11 17:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/TopMenu/option_signon' is clickable
+
+2019-11-11 17:29:10 - [TEST_STEP][PASSED] - click(findTestObject("MENU/TopMenu/option_signon")): Object: 'Object Repository/MENU/TopMenu/option_signon' is clicked on
+
+2019-11-11 17:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/TopMenu/option_signon' is clicked on
+
+2019-11-11 17:29:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/SIGN_ON/button_submit"), 5): Object 'Object Repository/SIGN_ON/button_submit' is visible
+
+2019-11-11 17:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/SIGN_ON/button_submit' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SIGN_ON/log_in" time="4.853" classname="Test Cases/SIGN_ON/log_in" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:29:12 - [TEST_CASE][PASSED] - Test Cases/SIGN_ON/log_in: Test Cases/SIGN_ON/log_in
+
+2019-11-11 17:29:12 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_ON/input_username"), USER_NAME): Text 'ContpaqPrueba001' is set on object 'Object Repository/SIGN_ON/input_username'
+
+2019-11-11 17:29:13 - [MESSAGE][PASSED] - Text 'ContpaqPrueba001' is set on object 'Object Repository/SIGN_ON/input_username'
+
+2019-11-11 17:29:13 - [TEST_STEP][PASSED] - setText(findTestObject("SIGN_ON/input_password"), "Contpaqi_2019"): Text 'Contpaqi_2019' is set on object 'Object Repository/SIGN_ON/input_password'
+
+2019-11-11 17:29:13 - [MESSAGE][PASSED] - Text 'Contpaqi_2019' is set on object 'Object Repository/SIGN_ON/input_password'
+
+2019-11-11 17:29:13 - [TEST_STEP][PASSED] - click(findTestObject("SIGN_ON/button_submit")): Object: 'Object Repository/SIGN_ON/button_submit' is clicked on
+
+2019-11-11 17:29:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SIGN_ON/button_submit' is clicked on
+
+2019-11-11 17:29:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 5): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/access_flights" time="2.595" classname="Test Cases/FLIGHTS/access_flights" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:29:17 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/access_flights: Test Cases/FLIGHTS/access_flights
+
+2019-11-11 17:29:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("MENU/SideMenu/option_flights"), STOP_ON_FAILURE): Object 'Object Repository/MENU/SideMenu/option_flights' is clickable
+
+2019-11-11 17:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/MENU/SideMenu/option_flights' is clickable
+
+2019-11-11 17:29:17 - [TEST_STEP][PASSED] - click(findTestObject("MENU/SideMenu/option_flights")): Object: 'Object Repository/MENU/SideMenu/option_flights' is clicked on
+
+2019-11-11 17:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MENU/SideMenu/option_flights' is clicked on
+
+2019-11-11 17:29:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 5): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" time="36.915" classname="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:29:19 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation: Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation
+
+2019-11-11 17:29:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/search_flight"), ["type":type, "depFrom":depForm, "servClass":servClass, "noPass":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:29:20 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/search_flight: Test Cases/FLIGHTS/FlightFinder/search_flight
+
+2019-11-11 17:29:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_flight_details"), ["type":type, "departingFrom":depFrom, "noPassengers":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:29:20 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_flight_details: Test Cases/FLIGHTS/FlightFinder/fill_flight_details
+
+2019-11-11 17:29:21 - [TEST_STEP][PASSED] - calen = Calendar.getInstance(): null
+
+2019-11-11 17:29:21 - [TEST_STEP][PASSED] - expectedMonth = calen.getDisplayName(MONTH, LONG, ENGLISH): null
+
+2019-11-11 17:29:21 - [TEST_STEP][PASSED] - day = calen.get(DATE): null
+
+2019-11-11 17:29:21 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/FlightDetails/radio_triptype", ["type":type])): Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:29:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_passengers"), noPassengers, false): All options with label '4' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:29:23 - [MESSAGE][PASSED] - All options with label '4' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:29:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_departingfrom"), departingFrom, false): All options with label 'Zurich' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:29:24 - [MESSAGE][PASSED] - All options with label 'Zurich' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:29:24 - [TEST_STEP][PASSED] - fromActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:29:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:29:24 - [TEST_STEP][PASSED] - if (verifyNotMatch(fromActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:29:24 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:29:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:29:25 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:29:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onday"), day.toString(), false): All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:29:26 - [MESSAGE][PASSED] - All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:29:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_arrivingin"), departingFrom, false): All options with label 'Zurich' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:29:27 - [MESSAGE][PASSED] - All options with label 'Zurich' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:29:27 - [TEST_STEP][PASSED] - arrivingActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:29:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:29:27 - [TEST_STEP][PASSED] - if (verifyNotMatch(arrivingActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:29:27 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:29:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:29:28 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:29:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningday"), String.valueOf(day + 1), false): All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:29:29 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:29:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:29:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_preferences"), ["serviceClass":servClass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:29:29 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_preferences: Test Cases/FLIGHTS/FlightFinder/fill_preferences
+
+2019-11-11 17:29:29 - [TEST_STEP][PASSED] - switch (serviceClass): null
+
+2019-11-11 17:29:29 - [TEST_STEP][PASSED] - case "F":: null
+
+2019-11-11 17:29:29 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/radio_serviceclass", ["servclass":"First"])): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:29:30 - [TEST_STEP][PASSED] - break: null
+
+2019-11-11 17:29:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:29:30 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue")): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:29:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/SelectFlight/button_continue"), STOP_ON_FAILURE): Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:29:32 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:29:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:29:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/SelectFlight/reserve_flight"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:29:32 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/SelectFlight/reserve_flight: Test Cases/FLIGHTS/SelectFlight/reserve_flight
+
+2019-11-11 17:29:32 - [TEST_STEP][PASSED] - lastHourDepart = auxiliar.validations.SelectFlight.selectLastFlightDepart(): auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:29:33 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:29:33 - [TEST_STEP][PASSED] - lastHourReturn = auxiliar.validations.SelectFlight.selectLastFlightReturn(): auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:29:33 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:29:33 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_departflight", ["lastHour":lastHourDepart])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:29:34 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_returnflight", ["lastHour":lastHourReturn])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:29:35 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/button_continue")): Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:29:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:29:37 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:29:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:29:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/purchase_flight"), ["totalPassengers":Integer.parseInt(noPass)], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:29:37 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/purchase_flight: Test Cases/FLIGHTS/BookFlight/purchase_flight
+
+2019-11-11 17:29:37 - [TEST_STEP][PASSED] - sheet = getExcelSheetByName("Vuelos.xlsx", "DatosPasajeros"): null
+
+2019-11-11 17:29:40 - [TEST_STEP][PASSED] - for ([countPassengers = 0, countPassengers <= totalPassengers - 1, (countPassengers++)]): null
+
+2019-11-11 17:29:40 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:29:40 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:41 - [MESSAGE][PASSED] - Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:41 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:42 - [MESSAGE][PASSED] - Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:42 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:29:42 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:29:42 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:29:42 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:43 - [MESSAGE][PASSED] - Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:43 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:44 - [MESSAGE][PASSED] - Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:44 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:29:44 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:29:44 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Daniel' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:44 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Banda' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:45 - [MESSAGE][PASSED] - Text 'Banda' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:45 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:29:45 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:29:45 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Alejandro' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:46 - [MESSAGE][PASSED] - Text 'Alejandro' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:29:46 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Murillo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:48 - [MESSAGE][PASSED] - Text 'Murillo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:29:48 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_numbercard"), "1234567891234567"): Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:29:50 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:29:50 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:29:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:29:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/validation_purchase"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:29:52 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/validation_purchase: Test Cases/FLIGHTS/BookFlight/validation_purchase
+
+2019-11-11 17:29:53 - [TEST_STEP][PASSED] - dataPurchase = auxiliar.validations.PurchaseMessage.validateFlightPurchase(): auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:29:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FLIGHTS/PurchaseMessage/label_intinerary' are matched.
+
+2019-11-11 17:29:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/PurchaseMessage/label_flightconfirmation' is: ' Flight Confirmation # 2019-11-11152952'
+
+2019-11-11 17:29:54 - [MESSAGE][PASSED] - auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:29:54 - [TEST_STEP][PASSED] - if (verifyEqual(dataPurchase.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:29:54 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:29:54 - [TEST_STEP][PASSED] - else: 
+
+  Flight Confirmation # 2019-11-11152952 -> true
+
+
+
+2019-11-11 17:29:54 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataPurchase.get(0) + " -> " + dataPurchase.get(1) + "
+
+"): 
+
+  Flight Confirmation # 2019-11-11152952 -> true
+
+
+
+2019-11-11 17:29:54 - [MESSAGE][PASSED] - 
+
+  Flight Confirmation # 2019-11-11152952 -> true
+
+
+
+2019-11-11 17:29:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:29:54 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/PurchaseMessage/button_backtoflight")): Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:29:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 3): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" time="26.43" classname="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:29:56 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation: Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation
+
+2019-11-11 17:29:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/search_flight"), ["type":type, "depFrom":depForm, "servClass":servClass, "noPass":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:29:57 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/search_flight: Test Cases/FLIGHTS/FlightFinder/search_flight
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_flight_details"), ["type":type, "departingFrom":depFrom, "noPassengers":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:29:57 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_flight_details: Test Cases/FLIGHTS/FlightFinder/fill_flight_details
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - calen = Calendar.getInstance(): null
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - expectedMonth = calen.getDisplayName(MONTH, LONG, ENGLISH): null
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - day = calen.get(DATE): null
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/FlightDetails/radio_triptype", ["type":type])): Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:29:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_passengers"), noPassengers, false): All options with label '3' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:29:58 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:29:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_departingfrom"), departingFrom, false): All options with label 'London' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:29:59 - [MESSAGE][PASSED] - All options with label 'London' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:29:59 - [TEST_STEP][PASSED] - fromActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:00 - [TEST_STEP][PASSED] - if (verifyNotMatch(fromActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:00 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:00 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onday"), day.toString(), false): All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:01 - [MESSAGE][PASSED] - All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:01 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_arrivingin"), departingFrom, false): All options with label 'London' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:02 - [MESSAGE][PASSED] - All options with label 'London' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:02 - [TEST_STEP][PASSED] - arrivingActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:02 - [TEST_STEP][PASSED] - if (verifyNotMatch(arrivingActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:02 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:02 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:03 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:03 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningday"), String.valueOf(day + 1), false): All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:04 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_preferences"), ["serviceClass":servClass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:04 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_preferences: Test Cases/FLIGHTS/FlightFinder/fill_preferences
+
+2019-11-11 17:30:04 - [TEST_STEP][PASSED] - switch (serviceClass): null
+
+2019-11-11 17:30:04 - [TEST_STEP][PASSED] - case "B":: null
+
+2019-11-11 17:30:04 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/radio_serviceclass", ["servclass":"Business"])): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:05 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:05 - [TEST_STEP][PASSED] - break: null
+
+2019-11-11 17:30:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:05 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue")): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/SelectFlight/button_continue"), STOP_ON_FAILURE): Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:30:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/SelectFlight/reserve_flight"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:30:07 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/SelectFlight/reserve_flight: Test Cases/FLIGHTS/SelectFlight/reserve_flight
+
+2019-11-11 17:30:07 - [TEST_STEP][PASSED] - lastHourDepart = auxiliar.validations.SelectFlight.selectLastFlightDepart(): auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:08 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:08 - [TEST_STEP][PASSED] - lastHourReturn = auxiliar.validations.SelectFlight.selectLastFlightReturn(): auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:30:08 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:30:08 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_departflight", ["lastHour":lastHourDepart])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:30:09 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_returnflight", ["lastHour":lastHourReturn])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:30:10 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/button_continue")): Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:30:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:30:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/purchase_flight"), ["totalPassengers":Integer.parseInt(noPass)], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:30:12 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/purchase_flight: Test Cases/FLIGHTS/BookFlight/purchase_flight
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - sheet = getExcelSheetByName("Vuelos.xlsx", "DatosPasajeros"): null
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - for ([countPassengers = 0, countPassengers <= totalPassengers - 1, (countPassengers++)]): null
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:30:12 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:13 - [MESSAGE][PASSED] - Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:13 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:14 - [MESSAGE][PASSED] - Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:14 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:30:14 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:30:14 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:15 - [MESSAGE][PASSED] - Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:15 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:16 - [MESSAGE][PASSED] - Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:16 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:30:16 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:30:16 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Daniel' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:16 - [MESSAGE][PASSED] - Text 'Daniel' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Banda' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:17 - [MESSAGE][PASSED] - Text 'Banda' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:17 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:30:17 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_numbercard"), "1234567891234567"): Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:30:18 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:30:18 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:30:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:30:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/validation_purchase"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:30:20 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/validation_purchase: Test Cases/FLIGHTS/BookFlight/validation_purchase
+
+2019-11-11 17:30:20 - [TEST_STEP][PASSED] - dataPurchase = auxiliar.validations.PurchaseMessage.validateFlightPurchase(): auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:30:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FLIGHTS/PurchaseMessage/label_intinerary' are matched.
+
+2019-11-11 17:30:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/PurchaseMessage/label_flightconfirmation' is: ' Flight Confirmation # 2019-11-11153019'
+
+2019-11-11 17:30:21 - [MESSAGE][PASSED] - auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:30:21 - [TEST_STEP][PASSED] - if (verifyEqual(dataPurchase.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:30:21 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:30:21 - [TEST_STEP][PASSED] - else: 
+
+  Flight Confirmation # 2019-11-11153019 -> true
+
+
+
+2019-11-11 17:30:21 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataPurchase.get(0) + " -> " + dataPurchase.get(1) + "
+
+"): 
+
+  Flight Confirmation # 2019-11-11153019 -> true
+
+
+
+2019-11-11 17:30:21 - [MESSAGE][PASSED] - 
+
+  Flight Confirmation # 2019-11-11153019 -> true
+
+
+
+2019-11-11 17:30:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:30:21 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/PurchaseMessage/button_backtoflight")): Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:30:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 3): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:30:23 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" time="24.655" classname="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:30:23 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation: Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/search_flight"), ["type":type, "depFrom":depForm, "servClass":servClass, "noPass":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:30:23 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/search_flight: Test Cases/FLIGHTS/FlightFinder/search_flight
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_flight_details"), ["type":type, "departingFrom":depFrom, "noPassengers":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:30:23 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_flight_details: Test Cases/FLIGHTS/FlightFinder/fill_flight_details
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - calen = Calendar.getInstance(): null
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - expectedMonth = calen.getDisplayName(MONTH, LONG, ENGLISH): null
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - day = calen.get(DATE): null
+
+2019-11-11 17:30:23 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/FlightDetails/radio_triptype", ["type":type])): Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:30:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_passengers"), noPassengers, false): All options with label '2' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:30:25 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:30:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_departingfrom"), departingFrom, false): All options with label 'New York' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:30:26 - [MESSAGE][PASSED] - All options with label 'New York' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:30:26 - [TEST_STEP][PASSED] - fromActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:27 - [TEST_STEP][PASSED] - if (verifyNotMatch(fromActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:27 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:27 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onday"), day.toString(), false): All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:28 - [MESSAGE][PASSED] - All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_arrivingin"), departingFrom, false): All options with label 'New York' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:29 - [MESSAGE][PASSED] - All options with label 'New York' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:29 - [TEST_STEP][PASSED] - arrivingActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:29 - [TEST_STEP][PASSED] - if (verifyNotMatch(arrivingActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:29 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:30 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningday"), String.valueOf(day + 1), false): All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:31 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:30:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_preferences"), ["serviceClass":servClass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:31 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_preferences: Test Cases/FLIGHTS/FlightFinder/fill_preferences
+
+2019-11-11 17:30:31 - [TEST_STEP][PASSED] - switch (serviceClass): null
+
+2019-11-11 17:30:31 - [TEST_STEP][PASSED] - case "E":: null
+
+2019-11-11 17:30:31 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/radio_serviceclass", ["servclass":"Coach"])): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:32 - [TEST_STEP][PASSED] - break: null
+
+2019-11-11 17:30:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:32 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue")): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/SelectFlight/button_continue"), STOP_ON_FAILURE): Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:34 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:30:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/SelectFlight/reserve_flight"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:30:34 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/SelectFlight/reserve_flight: Test Cases/FLIGHTS/SelectFlight/reserve_flight
+
+2019-11-11 17:30:34 - [TEST_STEP][PASSED] - lastHourDepart = auxiliar.validations.SelectFlight.selectLastFlightDepart(): auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:34 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:34 - [TEST_STEP][PASSED] - lastHourReturn = auxiliar.validations.SelectFlight.selectLastFlightReturn(): auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:30:35 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:30:35 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_departflight", ["lastHour":lastHourDepart])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:30:36 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_returnflight", ["lastHour":lastHourReturn])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:30:36 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/button_continue")): Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:30:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:30:38 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:30:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:30:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/purchase_flight"), ["totalPassengers":Integer.parseInt(noPass)], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:30:38 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/purchase_flight: Test Cases/FLIGHTS/BookFlight/purchase_flight
+
+2019-11-11 17:30:38 - [TEST_STEP][PASSED] - sheet = getExcelSheetByName("Vuelos.xlsx", "DatosPasajeros"): null
+
+2019-11-11 17:30:39 - [TEST_STEP][PASSED] - for ([countPassengers = 0, countPassengers <= totalPassengers - 1, (countPassengers++)]): null
+
+2019-11-11 17:30:39 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:30:39 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:39 - [MESSAGE][PASSED] - Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:40 - [MESSAGE][PASSED] - Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:40 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:30:40 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:30:40 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:41 - [MESSAGE][PASSED] - Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:30:41 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:42 - [MESSAGE][PASSED] - Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:30:42 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_numbercard"), "1234567891234567"): Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:30:43 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:30:43 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:30:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:30:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/validation_purchase"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:30:44 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/validation_purchase: Test Cases/FLIGHTS/BookFlight/validation_purchase
+
+2019-11-11 17:30:44 - [TEST_STEP][PASSED] - dataPurchase = auxiliar.validations.PurchaseMessage.validateFlightPurchase(): auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:30:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FLIGHTS/PurchaseMessage/label_intinerary' are matched.
+
+2019-11-11 17:30:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/PurchaseMessage/label_flightconfirmation' is: ' Flight Confirmation # 2019-11-11153044'
+
+2019-11-11 17:30:45 - [MESSAGE][PASSED] - auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:30:45 - [TEST_STEP][PASSED] - if (verifyEqual(dataPurchase.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:30:45 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:30:45 - [TEST_STEP][PASSED] - else: 
+
+  Flight Confirmation # 2019-11-11153044 -> true
+
+
+
+2019-11-11 17:30:45 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataPurchase.get(0) + " -> " + dataPurchase.get(1) + "
+
+"): 
+
+  Flight Confirmation # 2019-11-11153044 -> true
+
+
+
+2019-11-11 17:30:45 - [MESSAGE][PASSED] - 
+
+  Flight Confirmation # 2019-11-11153044 -> true
+
+
+
+2019-11-11 17:30:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:30:45 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/PurchaseMessage/button_backtoflight")): Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:30:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 3): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" time="22.494" classname="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:30:48 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation: Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/search_flight"), ["type":type, "depFrom":depForm, "servClass":servClass, "noPass":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:30:48 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/search_flight: Test Cases/FLIGHTS/FlightFinder/search_flight
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_flight_details"), ["type":type, "departingFrom":depFrom, "noPassengers":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:30:48 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_flight_details: Test Cases/FLIGHTS/FlightFinder/fill_flight_details
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - calen = Calendar.getInstance(): null
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - expectedMonth = calen.getDisplayName(MONTH, LONG, ENGLISH): null
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - day = calen.get(DATE): null
+
+2019-11-11 17:30:48 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/FlightDetails/radio_triptype", ["type":type])): Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:30:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_passengers"), noPassengers, false): All options with label '1' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:30:50 - [MESSAGE][PASSED] - All options with label '1' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:30:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_departingfrom"), departingFrom, false): All options with label 'Frankfurt' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:30:51 - [MESSAGE][PASSED] - All options with label 'Frankfurt' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:30:51 - [TEST_STEP][PASSED] - fromActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:51 - [TEST_STEP][PASSED] - if (verifyNotMatch(fromActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:51 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:52 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:30:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onday"), day.toString(), false): All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:53 - [MESSAGE][PASSED] - All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:30:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_arrivingin"), departingFrom, false): All options with label 'Frankfurt' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:54 - [MESSAGE][PASSED] - All options with label 'Frankfurt' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:30:54 - [TEST_STEP][PASSED] - arrivingActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:30:54 - [TEST_STEP][PASSED] - if (verifyNotMatch(arrivingActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:30:54 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:30:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:55 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:30:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningday"), String.valueOf(day + 1), false): All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:56 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:30:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:30:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_preferences"), ["serviceClass":servClass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:56 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_preferences: Test Cases/FLIGHTS/FlightFinder/fill_preferences
+
+2019-11-11 17:30:56 - [TEST_STEP][PASSED] - switch (serviceClass): null
+
+2019-11-11 17:30:56 - [TEST_STEP][PASSED] - case "F":: null
+
+2019-11-11 17:30:56 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/radio_serviceclass", ["servclass":"First"])): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:30:57 - [TEST_STEP][PASSED] - break: null
+
+2019-11-11 17:30:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:30:57 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue")): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:30:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/SelectFlight/button_continue"), STOP_ON_FAILURE): Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:58 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:30:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:30:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/SelectFlight/reserve_flight"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:30:59 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/SelectFlight/reserve_flight: Test Cases/FLIGHTS/SelectFlight/reserve_flight
+
+2019-11-11 17:30:59 - [TEST_STEP][PASSED] - lastHourDepart = auxiliar.validations.SelectFlight.selectLastFlightDepart(): auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:59 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:30:59 - [TEST_STEP][PASSED] - lastHourReturn = auxiliar.validations.SelectFlight.selectLastFlightReturn(): auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:31:00 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:31:00 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_departflight", ["lastHour":lastHourDepart])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:31:00 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_returnflight", ["lastHour":lastHourReturn])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:31:01 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/button_continue")): Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:31:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:31:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/purchase_flight"), ["totalPassengers":Integer.parseInt(noPass)], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:31:03 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/purchase_flight: Test Cases/FLIGHTS/BookFlight/purchase_flight
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - sheet = getExcelSheetByName("Vuelos.xlsx", "DatosPasajeros"): null
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - for ([countPassengers = 0, countPassengers <= totalPassengers - 1, (countPassengers++)]): null
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:31:03 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:04 - [MESSAGE][PASSED] - Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:05 - [MESSAGE][PASSED] - Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:05 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_numbercard"), "1234567891234567"): Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:31:06 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:31:06 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:31:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:31:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/validation_purchase"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:31:07 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/validation_purchase: Test Cases/FLIGHTS/BookFlight/validation_purchase
+
+2019-11-11 17:31:07 - [TEST_STEP][PASSED] - dataPurchase = auxiliar.validations.PurchaseMessage.validateFlightPurchase(): auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:31:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FLIGHTS/PurchaseMessage/label_intinerary' are matched.
+
+2019-11-11 17:31:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/PurchaseMessage/label_flightconfirmation' is: ' Flight Confirmation # 2019-11-11153107'
+
+2019-11-11 17:31:08 - [MESSAGE][PASSED] - auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:31:08 - [TEST_STEP][PASSED] - if (verifyEqual(dataPurchase.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:31:08 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:31:08 - [TEST_STEP][PASSED] - else: 
+
+  Flight Confirmation # 2019-11-11153107 -> true
+
+
+
+2019-11-11 17:31:08 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataPurchase.get(0) + " -> " + dataPurchase.get(1) + "
+
+"): 
+
+  Flight Confirmation # 2019-11-11153107 -> true
+
+
+
+2019-11-11 17:31:08 - [MESSAGE][PASSED] - 
+
+  Flight Confirmation # 2019-11-11153107 -> true
+
+
+
+2019-11-11 17:31:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:31:08 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/PurchaseMessage/button_backtoflight")): Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:31:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 3): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" time="23.959" classname="Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:31:10 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation: Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/search_flight"), ["type":type, "depFrom":depForm, "servClass":servClass, "noPass":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:31:10 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/search_flight: Test Cases/FLIGHTS/FlightFinder/search_flight
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_flight_details"), ["type":type, "departingFrom":depFrom, "noPassengers":noPass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:31:10 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_flight_details: Test Cases/FLIGHTS/FlightFinder/fill_flight_details
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - calen = Calendar.getInstance(): null
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - expectedMonth = calen.getDisplayName(MONTH, LONG, ENGLISH): null
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - day = calen.get(DATE): null
+
+2019-11-11 17:31:10 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/FlightDetails/radio_triptype", ["type":type])): Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/radio_triptype' is clicked on
+
+2019-11-11 17:31:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_passengers"), noPassengers, false): All options with label '2' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:31:12 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_passengers' 
+
+2019-11-11 17:31:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_departingfrom"), departingFrom, false): All options with label 'Paris' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:31:13 - [MESSAGE][PASSED] - All options with label 'Paris' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_departingfrom' 
+
+2019-11-11 17:31:13 - [TEST_STEP][PASSED] - fromActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:31:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:31:13 - [TEST_STEP][PASSED] - if (verifyNotMatch(fromActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:31:13 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:31:13 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:31:14 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onmonth' 
+
+2019-11-11 17:31:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_onday"), day.toString(), false): All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:31:15 - [MESSAGE][PASSED] - All options with label '11' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_onday' 
+
+2019-11-11 17:31:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_arrivingin"), departingFrom, false): All options with label 'Paris' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:31:16 - [MESSAGE][PASSED] - All options with label 'Paris' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_arrivingin' 
+
+2019-11-11 17:31:16 - [TEST_STEP][PASSED] - arrivingActualMonth = getText(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth")): Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:31:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' is: 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December'
+
+2019-11-11 17:31:16 - [TEST_STEP][PASSED] - if (verifyNotMatch(arrivingActualMonth, expectedMonth, false)): null
+
+2019-11-11 17:31:16 - [MESSAGE][PASSED] - Actual text 'January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December' and expected text 'November' are not matched 
+
+2019-11-11 17:31:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningmonth"), expectedMonth, false): All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:31:17 - [MESSAGE][PASSED] - All options with label 'November' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningmonth' 
+
+2019-11-11 17:31:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("FLIGHTS/FligthFinder/FlightDetails/select_returningday"), String.valueOf(day + 1), false): All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:31:18 - [MESSAGE][PASSED] - All options with label '12' are selected in object 'Object Repository/FLIGHTS/FligthFinder/FlightDetails/select_returningday' 
+
+2019-11-11 17:31:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_flight_details' successfully
+
+2019-11-11 17:31:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/FlightFinder/fill_preferences"), ["serviceClass":servClass], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:31:18 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/FlightFinder/fill_preferences: Test Cases/FLIGHTS/FlightFinder/fill_preferences
+
+2019-11-11 17:31:18 - [TEST_STEP][PASSED] - switch (serviceClass): null
+
+2019-11-11 17:31:18 - [TEST_STEP][PASSED] - case "B":: null
+
+2019-11-11 17:31:18 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/radio_serviceclass", ["servclass":"Business"])): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/radio_serviceclass' is clicked on
+
+2019-11-11 17:31:19 - [TEST_STEP][PASSED] - break: null
+
+2019-11-11 17:31:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/fill_preferences' successfully
+
+2019-11-11 17:31:19 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue")): Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is clicked on
+
+2019-11-11 17:31:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/SelectFlight/button_continue"), STOP_ON_FAILURE): Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:31:20 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/SelectFlight/button_continue' is visible
+
+2019-11-11 17:31:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/FlightFinder/search_flight' successfully
+
+2019-11-11 17:31:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/SelectFlight/reserve_flight"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:31:21 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/SelectFlight/reserve_flight: Test Cases/FLIGHTS/SelectFlight/reserve_flight
+
+2019-11-11 17:31:21 - [TEST_STEP][PASSED] - lastHourDepart = auxiliar.validations.SelectFlight.selectLastFlightDepart(): auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:31:21 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightDepart is PASSED
+
+2019-11-11 17:31:21 - [TEST_STEP][PASSED] - lastHourReturn = auxiliar.validations.SelectFlight.selectLastFlightReturn(): auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:31:21 - [MESSAGE][PASSED] - auxiliar.validations.SelectFlight.selectLastFlightReturn is PASSED
+
+2019-11-11 17:31:21 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_departflight", ["lastHour":lastHourDepart])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_departflight' is clicked on
+
+2019-11-11 17:31:22 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/radio_returnflight", ["lastHour":lastHourReturn])): Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/radio_returnflight' is clicked on
+
+2019-11-11 17:31:23 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/SelectFlight/button_continue")): Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/SelectFlight/button_continue' is clicked on
+
+2019-11-11 17:31:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:31:25 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is visible
+
+2019-11-11 17:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/SelectFlight/reserve_flight' successfully
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/purchase_flight"), ["totalPassengers":Integer.parseInt(noPass)], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:31:25 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/purchase_flight: Test Cases/FLIGHTS/BookFlight/purchase_flight
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - sheet = getExcelSheetByName("Vuelos.xlsx", "DatosPasajeros"): null
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - for ([countPassengers = 0, countPassengers <= totalPassengers - 1, (countPassengers++)]): null
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:26 - [MESSAGE][PASSED] - Text 'Ian ' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:27 - [MESSAGE][PASSED] - Text 'Romero' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:27 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:31:27 - [TEST_STEP][PASSED] - namePassenger = getCellValueByIndex(sheet, rowDataPassenger, 0): null
+
+2019-11-11 17:31:27 - [TEST_STEP][PASSED] - lastNamePassenger = getCellValueByIndex(sheet, rowDataPassenger, 1): null
+
+2019-11-11 17:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_firstname", ["noPass":countPassengers.toString()]), namePassenger): Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:28 - [MESSAGE][PASSED] - Text 'Heberardo' is set on object 'Object Repository/FLIGHTS/BookFlight/input_firstname'
+
+2019-11-11 17:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_lastname", ["noPass":countPassengers.toString()]), lastNamePassenger): Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:28 - [MESSAGE][PASSED] - Text 'Jimenez' is set on object 'Object Repository/FLIGHTS/BookFlight/input_lastname'
+
+2019-11-11 17:31:28 - [TEST_STEP][PASSED] - (rowDataPassenger++): null
+
+2019-11-11 17:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("FLIGHTS/BookFlight/input_numbercard"), "1234567891234567"): Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:31:30 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/FLIGHTS/BookFlight/input_numbercard'
+
+2019-11-11 17:31:30 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/BookFlight/button_securepurchase")): Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/BookFlight/button_securepurchase' is clicked on
+
+2019-11-11 17:31:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/purchase_flight' successfully
+
+2019-11-11 17:31:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FLIGHTS/BookFlight/validation_purchase"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:31:31 - [TEST_CASE][PASSED] - Test Cases/FLIGHTS/BookFlight/validation_purchase: Test Cases/FLIGHTS/BookFlight/validation_purchase
+
+2019-11-11 17:31:31 - [TEST_STEP][PASSED] - dataPurchase = auxiliar.validations.PurchaseMessage.validateFlightPurchase(): auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:31:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FLIGHTS/PurchaseMessage/label_intinerary' are matched.
+
+2019-11-11 17:31:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/FLIGHTS/PurchaseMessage/label_flightconfirmation' is: ' Flight Confirmation # 2019-11-11153131'
+
+2019-11-11 17:31:32 - [MESSAGE][PASSED] - auxiliar.validations.PurchaseMessage.validateFlightPurchase is PASSED
+
+2019-11-11 17:31:32 - [TEST_STEP][PASSED] - if (verifyEqual(dataPurchase.get(1), false, OPTIONAL)): Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:31:32 - [MESSAGE][WARNING] - Unable to verify equal between actual object 'true' and expected object 'false' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'true' and expected object 'false' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:126)
+	at validation_purchase.run(validation_purchase:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at bulk_flight_reservation.run(bulk_flight_reservation:15)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573514893749.run(TempTestSuite1573514893749.groovy:36)
+)
+
+2019-11-11 17:31:32 - [TEST_STEP][PASSED] - else: 
+
+  Flight Confirmation # 2019-11-11153131 -> true
+
+
+
+2019-11-11 17:31:32 - [TEST_STEP][PASSED] - markPassed("
+
+ " + dataPurchase.get(0) + " -> " + dataPurchase.get(1) + "
+
+"): 
+
+  Flight Confirmation # 2019-11-11153131 -> true
+
+
+
+2019-11-11 17:31:32 - [MESSAGE][PASSED] - 
+
+  Flight Confirmation # 2019-11-11153131 -> true
+
+
+
+2019-11-11 17:31:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FLIGHTS/BookFlight/validation_purchase' successfully
+
+2019-11-11 17:31:32 - [TEST_STEP][PASSED] - click(findTestObject("FLIGHTS/PurchaseMessage/button_backtoflight")): Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/FLIGHTS/PurchaseMessage/button_backtoflight' is clicked on
+
+2019-11-11 17:31:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("FLIGHTS/FligthFinder/Preferences/button_continue"), 3): Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible
+
+2019-11-11 17:31:34 - [MESSAGE][PASSED] - Object 'Object Repository/FLIGHTS/FligthFinder/Preferences/button_continue' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SET_UP_BROWSER/close_browser" time="2.088" classname="Test Cases/SET_UP_BROWSER/close_browser" status="PASSED">
+         <system-out><![CDATA[2019-11-11 17:31:34 - [TEST_CASE][PASSED] - Test Cases/SET_UP_BROWSER/close_browser: Test Cases/SET_UP_BROWSER/close_browser
+
+2019-11-11 17:31:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-11 17:31:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-11 17:28:22 - [TEST_SUITE][PASSED] - ReserveFlights: Test Cases/SET_UP_BROWSER/close_browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

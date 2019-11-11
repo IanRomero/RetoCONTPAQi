@@ -1,0 +1,12 @@
+{"testCaseName":"Test Cases/SET_UP_BROWSER/launch_browser","testCaseId":"Test Cases/SET_UP_BROWSER/launch_browser"}
+{"testCaseName":"Test Cases/REGISTER/access_register","testCaseId":"Test Cases/REGISTER/access_register"}
+{"testCaseName":"Test Cases/REGISTER/create_register","testCaseId":"Test Cases/REGISTER/create_register"}
+{"testCaseName":"Test Cases/SIGN_ON/access_sign_on","testCaseId":"Test Cases/SIGN_ON/access_sign_on"}
+{"testCaseName":"Test Cases/SIGN_ON/log_in","testCaseId":"Test Cases/SIGN_ON/log_in"}
+{"testCaseName":"Test Cases/FLIGHTS/access_flights","testCaseId":"Test Cases/FLIGHTS/access_flights"}
+{"testCaseName":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation - Iteration 1","testCaseId":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation","bindedValues":{"noPass":"\u00274\u0027","depForm":"\u0027Zurich\u0027","servClass":"\u0027F\u0027","type":"\u0027oneway\u0027"}}
+{"testCaseName":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation - Iteration 2","testCaseId":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation","bindedValues":{"noPass":"\u00273\u0027","depForm":"\u0027London\u0027","servClass":"\u0027B\u0027","type":"\u0027roundtrip\u0027"}}
+{"testCaseName":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation - Iteration 3","testCaseId":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation","bindedValues":{"noPass":"\u00272\u0027","depForm":"\u0027New York\u0027","servClass":"\u0027E\u0027","type":"\u0027oneway\u0027"}}
+{"testCaseName":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation - Iteration 4","testCaseId":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation","bindedValues":{"noPass":"\u00271\u0027","depForm":"\u0027Frankfurt\u0027","servClass":"\u0027F\u0027","type":"\u0027roundtrip\u0027"}}
+{"testCaseName":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation - Iteration 5","testCaseId":"Test Cases/FLIGHTS/BulkReservations/bulk_flight_reservation","bindedValues":{"noPass":"\u00272\u0027","depForm":"\u0027Paris\u0027","servClass":"\u0027B\u0027","type":"\u0027oneway\u0027"}}
+{"testCaseName":"Test Cases/SET_UP_BROWSER/close_browser","testCaseId":"Test Cases/SET_UP_BROWSER/close_browser"}

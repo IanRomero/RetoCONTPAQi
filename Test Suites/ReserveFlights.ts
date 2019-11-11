@@ -29,6 +29,18 @@
       <testCaseId>Test Cases/REGISTER/create_register</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1e0f8907-b66c-4ee7-9eb0-35d7d6a9ba9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIGN_ON/access_sign_on</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c1c759db-f530-4ef2-82f4-17a538503395</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SIGN_ON/log_in</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>528823e2-b17e-4cef-a29c-5c9f99fc6065</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -43,8 +55,8 @@
          <combinationType>ONE</combinationType>
          <id>054464f4-2141-4f24-8b88-07ecaedf3fee</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-5</value>
          </iterationEntity>
          <testDataId>Data Files/Vuelos</testDataId>
       </testDataLink>
